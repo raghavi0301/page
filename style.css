@@ -1,0 +1,53 @@
+h1{
+font-style: normal;
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    margin: 20px;
+}
+.nav{
+    background-color: rgb(110, 110, 255);
+    padding: 12px 30px;
+}
+.hero-content{
+    text-align: center;
+    padding: 15%;   
+    background: url(https://burst.shopifycdn.com/photos/coding-on-laptop.jpg?width=1000&format=pjpg&exif=0&iptc=0) center/cover no-repeat;
+}
+h2{
+    color: rgb(118, 118, 255);
+    font-size: 75;
+    display: flex;
+    justify-content: space-between;
+}
+.but{
+    padding: 12px 30px;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 10%;
+    cursor: pointer;
+    border: aquamarine; 
+}
+.btu{
+    padding: 12px 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: white;
+}
+.ton{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+}
+.btu:hover{
+    color: white;
+    background-color: black;
+}
+.but:hover{
+    background-color: olivedrab;
+}
